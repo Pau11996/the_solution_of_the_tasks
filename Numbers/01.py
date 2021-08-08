@@ -47,14 +47,14 @@
 # В качестве ответа возвращается «Волшебство случается» в случае успеха или «Никакого волшебства», если разделить нельзя.
 
 
-def magic(a, b):
-    count = 0
-    for x in a:
-        count += x ** 2
-    if count % b == 0:
-        print('Magic happens!')
-    else:
-        print('No magic')
-
-
-magic([1, 2, 3, 1, 3], 15)
+# def magic(a, b):
+#     count = 0
+#     for x in a:
+#         count += x ** 2
+#     if count % b == 0:
+#         print('Magic happens!')
+#     else:
+#         print('No magic')
+#
+#
+# magic([1, 2, 3, 1, 3], 15)
